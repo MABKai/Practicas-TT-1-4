@@ -68,7 +68,7 @@ elif int(edad)>15 and int(edad) <18:
     rango_etario= "Adolescente"
 #Validacion de Email
 email=input("Y finalmente, tu correo electronico ")
-if len(email)==0 or email.find("@")!="":#valido que se haya ingresado caracteres en email
+if len(email)==0 or email.find("@")=="":#valido que se haya ingresado caracteres en email
    print("ERROR.No ha ingresado un e-mail valido")
 print("Gracias!", end='\n')
 #muestro los datos ingreados
